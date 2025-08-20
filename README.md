@@ -174,13 +174,24 @@ POST /api/posts/{id}/comments, DELETE /api/comments/{id}
 Backend contains an images/ directory and a FileService/FileServiceImpl handling uploads. Confirm your file.upload-dir is writable and served (e.g., via a static resource handler). 
 
 
-![1745701875789](https://.com/user-attachments/assets/fbbd682b-61a3-45cb-9936-7612acc658ca)
-![1745701874601](https://.com/user-attachments/assets/64d81bf0-812c-40b1-8b4f-10cac62e3a0c)
-![1745701875012](https://.com/user-attachments/assets/8833f4fd-b15e-4926-a5ab-57fbdeb37257)
-![1745701874476](https://.com/user-attachments/assets/155e478b-2643-41ba-922b-b6f6c8f93ae4)
-![1745701874476 (1)](https://.com/user-attachments/assets/787a8a67-d5b3-4df2-b154-75a685f82c6a)
-![1745701873108](https://.com/user-attachments/assets/bf967d60-cf9d-4abb-91f7-c6cb5e83c0d9)
-![1745701874018](https://.com/user-attachments/assets/d2394be6-5bb3-4300-80cb-f3d12f352d3f)
-![1745701872989](https://.com/user-attachments/assets/94f97091-fcc3-4a4b-af65-b188e7840ece)
-![1745701873583](https://.com/user-attachments/assets/b9877abf-3184-45af-9c39-319f22cf0327)
-![1745701876464](https://.com/user-attachments/assets/090cf1c8-eccf-4a98-8b4b-2a7c681c254a)
+![1745701875789](https://github.com/user-attachments/assets/45e8bb64-673b-4237-8732-f43aa008e86f)
+
+![1745701874476](https://github.com/user-attachments/assets/96d4a184-6da0-4418-9fb2-2d9daccc7588)
+
+![1745701874601](https://github.com/user-attachments/assets/6d922aa3-28cd-47d1-b340-78a9c94f0cc2)
+
+![1745701875012](https://github.com/user-attachments/assets/ed530e15-b24b-4444-b18b-7362e60c2b42)
+
+![1745701874476 (1)](https://github.com/user-attachments/assets/af8d6f09-88f2-41a4-b99e-cccfb4ae54f9)
+
+![1745701873108](https://github.com/user-attachments/assets/1f37969d-3860-43ce-80fb-c1bb2f20436e)
+![1745701874018](https://github.com/user-attachments/assets/2cf258fd-116b-4106-8669-f0e928e25967)
+
+![1745701872989](https://github.com/user-attachments/assets/6262fea0-4eee-4967-b295-d5bd3e8e2cec)
+
+
+![1745701873583](https://github.com/user-attachments/assets/fb77207c-96f1-4837-926e-20eefec4f8ce)
+
+
+![1745701876464](https://github.com/user-attachments/assets/534e9ff5-f5ab-4e63-ad32-c1ef8312d3da)
+
