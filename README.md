@@ -10,7 +10,8 @@ A full-stack blogging platform with a Java/Spring Boot REST API and a modern Nex
 
 * Users: Profile edit, password update, dashboard.
   
-* Rich text editor in the frontend with a clean UI kit (Tailwind + shadcn/ui). 
+* Rich text editor in the frontend with a clean UI kit (Tailwind + shadcn/ui).
+* AI-generated content suggestions**: one-click ideas for titles, outlines, tags, and opening paragraphs to kickstart a post.
 
 * Payments: Stripe Embedded Checkout workflow (/api/embedded-checkout, stripe.tsx). 
 
@@ -132,13 +133,33 @@ NEXT_PUBLIC_API_BASE_URL=http://localhost:8080
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...
 STRIPE_SECRET_KEY=sk_test_...
 STRIPE_WEBHOOK_SECRET=whsec_...   # if you add webhooks later
+```
 
 <h3>Install & Run</h3>
+
+```
 cd frontend
 npm install
 npm run dev
 # Next.js dev server at http://localhost:3000
 ```
+
+## AI Content Suggestions
+
+The app can generate intelligent writing prompts to speed up blog creation:
+- **Suggest Title & Outline**: Get multiple headline options and a section-wise outline.
+- **Tag Ideas**: Auto-proposed tags/keywords based on your draft.
+- **First Paragraph**: A short intro to break the blank-page problem.
+
+**How to use**
+1. Start a new post (or open an existing draft).
+2. Type **“/write”** and enter a short topic/brief.
+3. Pick the suggestions you like and insert them into the editor. Edit as needed.
+
+**Config**
+- Set `GEMINI_API_KEY` (and `MODEL`) in `frontend/.env.local`.
+- For self-hosting or other providers, point your request code to that service and keep the same env names.
+
 
 <h2>Authentication Flow</h2>
 
